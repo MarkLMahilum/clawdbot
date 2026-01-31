@@ -25,5 +25,3 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: ${{ secrets.DOCKER_USERNAME }}/openclaw:latest
-          cache-from: type=gha
-          cache-to: type=gha,mode=max
